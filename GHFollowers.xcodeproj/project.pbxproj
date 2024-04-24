@@ -27,6 +27,7 @@
 		0D47AB7F2BBADFFC00900218 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D47AB7E2BBADFFC00900218 /* FollowerCell.swift */; };
 		0D47AB812BBAE1AA00900218 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D47AB802BBAE1AA00900218 /* GFAvatarImageView.swift */; };
 		0D5CD2272BD7C7A90046973D /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5CD2262BD7C7A90046973D /* UIHelper.swift */; };
+		0D5CD22F2BD9421F0046973D /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5CD22E2BD9421F0046973D /* GFEmptyStateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		0D47AB7E2BBADFFC00900218 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		0D47AB802BBAE1AA00900218 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		0D5CD2262BD7C7A90046973D /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		0D5CD22E2BD9421F0046973D /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,13 +111,13 @@
 		0D47AB6B2BB4AB5B00900218 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				0D5CD22D2BD9416D0046973D /* Labels */,
+				0D5CD22C2BD941460046973D /* ViewControllers */,
+				0D5CD22B2BD9413D0046973D /* ImageViews */,
+				0D5CD22A2BD941320046973D /* TextFields */,
+				0D5CD2292BD941210046973D /* Views */,
+				0D5CD2282BD941160046973D /* Buttons */,
 				0D47AB7D2BBADFB400900218 /* Cells */,
-				0D47AB662BB451EB00900218 /* GFAlertVC.swift */,
-				0D47AB5C2BB4275F00900218 /* GFButton.swift */,
-				0D47AB5E2BB42B7600900218 /* GFTextField.swift */,
-				0D47AB622BB44FD300900218 /* GFTitleLabel.swift */,
-				0D47AB642BB4512700900218 /* GFBodyLabel.swift */,
-				0D47AB802BBAE1AA00900218 /* GFAvatarImageView.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -171,6 +173,55 @@
 				0D47AB7E2BBADFFC00900218 /* FollowerCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		0D5CD2282BD941160046973D /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				0D47AB5C2BB4275F00900218 /* GFButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		0D5CD2292BD941210046973D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D5CD22E2BD9421F0046973D /* GFEmptyStateView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0D5CD22A2BD941320046973D /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				0D47AB5E2BB42B7600900218 /* GFTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		0D5CD22B2BD9413D0046973D /* ImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				0D47AB802BBAE1AA00900218 /* GFAvatarImageView.swift */,
+			);
+			path = ImageViews;
+			sourceTree = "<group>";
+		};
+		0D5CD22C2BD941460046973D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D47AB662BB451EB00900218 /* GFAlertVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0D5CD22D2BD9416D0046973D /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				0D47AB622BB44FD300900218 /* GFTitleLabel.swift */,
+				0D47AB642BB4512700900218 /* GFBodyLabel.swift */,
+			);
+			path = Labels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +308,7 @@
 				0D47AB652BB4512700900218 /* GFBodyLabel.swift in Sources */,
 				0D47AB722BB5938300900218 /* Follower.swift in Sources */,
 				0D47AB632BB44FD300900218 /* GFTitleLabel.swift in Sources */,
+				0D5CD22F2BD9421F0046973D /* GFEmptyStateView.swift in Sources */,
 				0D47AB772BB5B2C100900218 /* NetworkManager.swift in Sources */,
 				0D47AB452BB2F05000900218 /* AppDelegate.swift in Sources */,
 				0D47AB472BB2F05000900218 /* SceneDelegate.swift in Sources */,
